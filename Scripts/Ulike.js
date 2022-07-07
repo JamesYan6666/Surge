@@ -1,6 +1,9 @@
 /*
 醒图 轻颜相机 Ulike 蒸汽波相机(vaporcam) 解锁VIP
-https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body nzw9314/Script/qyxj.js
+
+轻颜相机 = type=http-response,pattern=^https?:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=1,max-size=0,script-path=https://github.com/JamesYan6666/Surge/edit/main/Scripts/Ulike.js,script-update-interval=-1
+
+https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) 
 
 hostname= commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com
 */
