@@ -1,1 +1,10 @@
 
+#!name=相机
+#!desc=各种相机App整合
+
+[Script]
+#>> 醒图&Ulike&轻颜相机&vaporcam
+BaiduChangeUA = type=http-request,pattern=^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com,script-path=https://hub.qste.com/Script/Others/BaiduChangeUA.js
+
+[MITM]
+hostname = commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com
