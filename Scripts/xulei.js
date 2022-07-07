@@ -1,7 +1,7 @@
 /*
 surge 4
 [Script]
-迅雷 = type=http-response,pattern=https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo,script-path=https://raw.githubusercontent.com/YanJian1990/Surge/main/Scripts/xulei.js,requires-body=1,max-size=0
+迅雷 = type=http-response,pattern=https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo,script-path=https://raw.githubusercontent.com/JamesYan6666/Surge/main/Scripts/xulei.js,requires-body=1,max-size=0
 [MITM]
 hostname = %APPEND% xluser-ssl.xunlei.com
 */
