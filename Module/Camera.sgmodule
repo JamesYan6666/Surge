@@ -3,8 +3,8 @@
 #!desc=各种相机App整合
 
 [Script]
-#>> 醒图&Ulike&轻颜相机&vaporcam
-相机= type=http-response,pattern=^https?:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=1,max-size=0,script-path=https://github.com/JamesYan6666/Surge/edit/main/Scripts/Ulike.js,script-update-interval=-1
+#> 醒图&Ulike&轻颜相机&vaporcam
+相机= type=http-response,pattern=^https?:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JamesYan6666/Surge/main/Scripts/Ulike.js,script-update-interval=-1
 
 [MITM]
 hostname = commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com
