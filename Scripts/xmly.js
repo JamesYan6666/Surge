@@ -1,5 +1,5 @@
 
-var body = JSON.parse($response.body);isSimpleVip
+var body = JSON.parse($response.body);
 body.data.isVip = true;
 body.data.isSimpleVip = true;
 body.data.vipExpireTime = 365;
