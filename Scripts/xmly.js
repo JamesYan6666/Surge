@@ -1,10 +1,11 @@
 
 var body = JSON.parse($response.body);
-body.data.vipExpireTime = "2099-01-01" 00:12:12;
-body.data.vipLevel = "3";
+body.data.vipExpireTime = 365;
+body.data.vipLevel = 3;
 body.data.isVip = true;
 body.data.vipLevel = 4;
-body.data.totalVipDays = 120;
+body.data.vipLevel = 4;
+body.data.logoType = -1;
 // var obj = {
 //     "realUid": 250171422,
 //     "logoType": 0,
@@ -18,7 +19,7 @@ body.data.totalVipDays = 120;
 //     "isVerified": false,
 //     "vipLevel": 3,
 //     "userGrade": 0,
-//     "vipExpireTime": 3312,
+//     "vipExpireTime": 12,
 //     "isRobot": false,
 //     "nickname": "听友250171422",
 //     "verifyType": 0
