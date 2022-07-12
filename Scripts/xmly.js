@@ -4,8 +4,7 @@ body.data.vipExpireTime = 365;
 body.data.vipLevel = 3;
 body.data.isVip = true;
 body.data.vipLevel = 4;
-body.data.vipLevel = 4;
-body.data.logoType = -1;
+body.data.logoType = 0;
 // var obj = {
 //     "realUid": 250171422,
 //     "logoType": 0,
