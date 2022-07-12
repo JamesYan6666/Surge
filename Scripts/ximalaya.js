@@ -1,4 +1,4 @@
 
-var body = JSON.parse($response.body);
-body.currentUser.isVip = true;
+var obj = JSON.parse($response.body);
+obj.currentUser.isVip = true;
 $done({ body: JSON.stringify(obj) });
