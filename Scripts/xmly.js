@@ -1,7 +1,7 @@
 
-var body = JSON.parse($response.body);
-body.data.isVip = true;
-body.data.isSimpleVip = true;
-body.data.vipExpireTime = 365;
-body.data.vipLevel = 6;
-$done({ body: JSON.stringify(body.data)});
+var obj = JSON.parse($response.body);
+obj.data.isVip = true;
+obj.data.isSimpleVip = true;
+obj.data.vipExpireTime = 365;
+obj.data.vipLevel = 6;
+$done(JSON.stringify(obj.data));
