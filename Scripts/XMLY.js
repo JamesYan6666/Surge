@@ -6,4 +6,4 @@ obj.data.vipStatus = 5;
 obj.data.vipExpireTime = 4088041629000;
 obj.data.vipLevel = 7;
 $.log(obj);
-// $done({body: JSON.stringify(obj)});
+$done({body: JSON.stringify(obj)});
