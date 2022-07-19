@@ -5,5 +5,5 @@ var obj = JSON.parse(body);
 // obj.data.vipStatus = 5;
 // obj.data.vipExpireTime = 4088041629000;
 // obj.data.vipLevel = 7;
-obj.userTitle = "熊大";
+obj.userTitle = "熊大12";
 $done({body: JSON.stringify(obj)});
