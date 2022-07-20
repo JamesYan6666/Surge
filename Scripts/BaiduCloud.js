@@ -1,28 +1,18 @@
 /*
 http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
 */
-let obj = JSON.parse($response.body);
-obj = {
-  "error_code":0,
-  "error_msg":"success"
-  "user_info":{"loginstate":1,
-               "username":"1122",
-               "uk":1102487430253,
-               "is_vip":1,
-               "is_svip":1,
-               "is_first_charge":1,
-               "photo":"https:\/\/ss0.bdstatic.com\/7Ls0a8Sm1A5BphGlnYG\/sys\/portrait\/item\/netdisk.1.db5d01d5.VkgtWJgYBaR0x8yXIfsc2w.jpg",
-               "mobileModel":"iphone",
-               "vipsid":0,"isAutoRenew":0,
-               "phone":"177*****520",
-               "is_first_charge_svip":1,
-               "assets_get":0,
-               "show_varyprice":0,
-               "is_plus_buy":0,"plus_buy_hit":0,
-               "expid":"",
-               "privilegeCardAutoRenew":{"privilegecard_work":0,"privilegecard_life":0,"privilegecard_audio_visual":0}
-              },
-  "request_id":43242761886666874
+var body = $response.body;
+var obj = JSON.parse(body);
+obj.user_info.is_svip = 1;
+obj.user_info.is_vip = 1;
+obj.user_info.is_first_charge_svip = 1;
+obj.user_info.username = "测试";
+obj.request_id = 43242761886666874
+$done({body: JSON.stringify(obj)});
+
+
+// let obj = JSON.parse($response.body);
+// obj = {
 //   "product_infos": [{
 //     "product_id": "5956446232844245857",
 //     "start_time": 1658306899,
@@ -97,4 +87,4 @@ obj = {
 //     },
 //   "request_id": 43242763417431435
 };
-$done({body: JSON.stringify(obj)});
+// $done({body: JSON.stringify(obj)});
