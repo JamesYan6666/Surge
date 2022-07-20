@@ -6,7 +6,7 @@ obj = {
   "error_code":0,
   "error_msg":"success"
   "user_info":{"loginstate":1,
-               "username":"\u80d6\u80d6\u5c0f\u53ef\u7231\u6d3b\u5b9d",
+               "username":"1122",
                "uk":1102487430253,
                "is_vip":1,
                "is_svip":1,
@@ -20,7 +20,8 @@ obj = {
                "show_varyprice":0,
                "is_plus_buy":0,"plus_buy_hit":0,
                "expid":"",
-               "privilegeCardAutoRenew":{"privilegecard_work":0,"privilegecard_life":0,"privilegecard_audio_visual":0}},
+               "privilegeCardAutoRenew":{"privilegecard_work":0,"privilegecard_life":0,"privilegecard_audio_visual":0}
+              },
   "request_id":43242761886666874
 //   "product_infos": [{
 //     "product_id": "5956446232844245857",
