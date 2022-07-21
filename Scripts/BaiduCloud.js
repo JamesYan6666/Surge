@@ -60,7 +60,7 @@ obj = {
   ],
   "level_info": {
     "history_value": 30,
-    "current_level": 1,
+    "current_level": 7,
     "last_manual_collection_time": 0,
     "current_value": 0,
     "history_level": 1
