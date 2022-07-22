@@ -16,7 +16,7 @@ obj = {
       "buy_description": "",
       "buy_time": 0,
       "product_id": "",
-      "auto_upgrade_to_svip": 0,
+      "auto_upgrade_to_svip": 1,
       "end_time": 2661097599,
       "cluster": "vip",
       "detail_cluster": "svip",
@@ -30,7 +30,7 @@ obj = {
       "buy_description": "",
       "buy_time": 0,
       "product_id": "",
-      "auto_upgrade_to_svip": 0,
+      "auto_upgrade_to_svip": 1,
       "end_time": 2661097599,
       "cluster": "contentvip",
       "detail_cluster": "contentvip",
@@ -59,7 +59,7 @@ obj = {
   "last_privilege_card": [
   ],
   "level_info": {
-    "history_value": 30,
+    "history_value": 3000,
     "current_level": 7,
     "last_manual_collection_time": 0,
     "current_value": 0,
