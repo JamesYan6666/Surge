@@ -81,7 +81,7 @@ obj = {
     "advertiseContent": [
     ],
     "svip": {
-      "leftseconds": 2703867,
+      "leftseconds": 99703867,
       "nextState": "normal"
     }
   },
