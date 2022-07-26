@@ -70,7 +70,7 @@ obj = {
   "previous_product": [
   ],
   "current_product": {
-    "product_id": "12187135090581539740",
+    "product_id": "12187135090581539741",
     "detail_cluster": "svip",
     "cluster": "vip",
     "product_type": "vip2_1m_auto"
