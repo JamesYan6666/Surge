@@ -46,7 +46,7 @@ obj = {
   "current_privilege_card": [
   ],
   "current_product_v2": {
-    "product_id": "12187135090581539740",
+    "product_id": "1218713509058153974",
     "detail_cluster": "svip",
     "cluster": "vip",
     "product_type": "vip2_1m_auto"
