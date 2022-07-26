@@ -65,7 +65,7 @@ obj = {
     "current_value": 0,
     "history_level": 1
   },
-  "user_tag": "{\"has_buy_record\":0,\"has_buy_vip_svip_record\":0,\"last_buy_record_creat_time\":0,\"is_vip\":1,\"is_svip\":1,\"last_vip_type\":1,\"last_vip_svip_end_time\":2658419199,\"is_svip_sign\":1,\"notice_user_type\":1,\"notice_user_status\":0,\"is_first_act\":0}",
+  "user_tag": "{\"has_buy_record\":0,\"has_buy_vip_svip_record\":0,\"last_buy_record_creat_time\":0,\"is_vip\":1,\"is_svip\":1,\"last_vip_type\":1,\"last_vip_svip_end_time\":2658419199,\"is_svip_sign\":0,\"notice_user_type\":1,\"notice_user_status\":0,\"is_first_act\":0}",
   "currenttime": 1658393732,
   "previous_product": [
   ],
